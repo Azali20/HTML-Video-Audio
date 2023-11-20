@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Audio & Video</title>
+</head>
+<body>
+    <h1>Video</h1>
+    <video id="myvideo" width="320" src="https://sample-videos.com/video123/mp4/720/big_buck_bunny_720p_1mb.mp4" controls>
+        your browser does not support video
+    </video>
+
+    <h1>Audio</h1>
+    <audio id="myaudio" src="https://www.freesound.org/data/previews/95/95026_57789-lq.mp3" controls>
+                your browser does not support audio
+    </audio>
+
+    <div>
+        <button onclick="document.getElementById('myaudio').play()">Play</button>
+        <button onclick="document.getElementById('myaudio').pause()">Pause</button>
+        <button onclick="document.getElementById('myaudio').volume
+        +=0.1">+ Volume</button>
+        <button onclick="document.getElementById('myaudio').volume-=0.1">- Volume</button>
+    </div>
+
+    <script>
+        // var v = document.getElementById('myvideo');
+        // v.play();
+    </script>
+</body>
+</html>
+
